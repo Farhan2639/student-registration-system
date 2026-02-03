@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(120deg, #74ebd5, #acb6e5);
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #5b86e5;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #5b86e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3f6ad8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #5b86e5;
+    color: white;
+}
